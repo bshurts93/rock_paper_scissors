@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row scoreboard">
+                <div class="col-md-4">
+                    <div class="card score-box" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Player</h5>
+                            <h6 class="card-subtitle mb-2 text-muted score">Score: <span id="player-score">0</span></h6>
+                            <p class="card-text move">Move: <span id="player-move"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center" id="outcome">Outcome</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card score-box" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer</h5>
+                            <h6 class="card-subtitle mb-2 text-muted score">Score: <span id="computer-score">0</span></h6>
+                            <p class="card-text move">Move: <span id="computer-move"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 btn-col">
+                    <button type="button" id="rock" class="btn btn-primary btn-rps">Rock</button>
+                </div>
+                <div class="col-md-4 btn-col">
+                    <button type="button" id="paper" class="btn btn-primary btn-rps">Paper</button>
+                </div>
+                <div class="col-md-4 btn-col">
+                    <button type="button" id="scissors" class="btn btn-primary btn-rps">Scissors</button>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

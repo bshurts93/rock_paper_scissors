@@ -1,0 +1,54 @@
+/* GLOBAL */
+
+body {
+    background-image: url(assets/img/hero.jpeg);
+}
+
+h1 { color: #6eaeae; }
+
+/* JUMBOTRON */
+
+.jumbotron {
+    margin-top: 2rem;
+    background-color: rgb(245, 245, 245);
+    padding: 0;
+    padding: 30px;
+}
+
+/* ROCK PAPER SCISSORS */
+.card-body {
+    padding: 15px 0 0 0;
+    text-align: center;    
+}
+
+.score-box {
+    margin: 0 auto;
+}
+
+.scoreboard {
+    margin-bottom: 50px;
+}
+
+.btn-rps {
+    padding: 20px 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-rps:hover,
+.btn-rps:active {
+    background-color: rgb(101, 193, 255);
+}
+
+#outcome {
+    font-size: 2.4rem;
+    line-height: 6rem;
+}
+
+.move {
+    padding: 10px;
+}
+
+.score {
+    padding: 10px 0 0 0;
+}
